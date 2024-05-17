@@ -57,3 +57,7 @@ searchButton.addEventListener("keypress", function (event) {
     checkIpAddress(searchBox.value);
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  checkIpAddress(""); // Call the async function
+});
